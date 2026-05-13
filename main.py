@@ -3,7 +3,7 @@ from PIL import Image
 import pillow_heif
 
 # set the directory path containing the HEIC files
-input_dir = 'D:/Rubix LLC/Rubix LLC - Documents/Products/R & D/R Series/Firmware/48V280AH/2026-05-12'
+input_dir = 'heic-dir'
 output_dir = os.path.join(input_dir, "output")
 
 # loop through all files in the directory
