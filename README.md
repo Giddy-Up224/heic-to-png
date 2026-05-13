@@ -33,10 +33,10 @@ pip install -r requirements.txt
 
 ## Notes
 
-- If you want to convert HEIC files in a different directory, modify the `directory` variable in the script to the appropriate directory path.
+- If you want to convert HEIC files in a different directory, modify the `input_dir` variable in the script to the appropriate directory path.
 ```python
 # set the directory path containing the HEIC files
 directory = 'heic_img'
 ```
 
-- This script was developed and used only on Windows 11.
+> [!Note] This script was developed and used only on Windows 11.
