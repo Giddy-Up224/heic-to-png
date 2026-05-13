@@ -14,24 +14,22 @@ This script requires the following libraries to be installed:
 You can install them by running:
 
 ```
-pip install pillow
-```
-
-```
- pip install pillow-heif
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 1. Place all the HEIC files you want to convert in the `heic_img` directory.
 
-2. Run the script `main.py` using the following command:
+2. Create an `output` directory
+
+3. Run the script `main.py` using the following command:
 
    ```
    python main.py
    ```
 
-3. All HEIC files in the `heic_img` directory will be converted to PNG format and saved in the same directory with the same name but with the `.png` extension.
+4. All HEIC files in the `heic_img` directory will be converted to PNG format and saved in the same directory with the same name but with the `.png` extension.
 
 ## Notes
 
@@ -41,4 +39,4 @@ pip install pillow
 directory = 'heic_img'
 ```
 
-- This script was developed and used only on Windows 10.
+- This script was developed and used only on Windows 11.
